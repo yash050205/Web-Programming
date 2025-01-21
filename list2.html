@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Lists</title>
+    <style>
+        body {
+            background-color: aqua;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: navy;
+        }
+
+        h2 {
+            color: darkgreen;
+        }
+
+        ul.theory li {
+            color: blue;
+            font-weight: bold;
+        }
+
+        ul.lab li {
+            color: crimson;
+            font-style: italic;
+        }
+
+        ol {
+            list-style: none;
+        }
+
+        ol li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        ol li img {
+            margin-right: 10px;
+        }
+
+        ul.reviews li {
+            margin-bottom: 15px;
+            background-color: white;
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Lists</h1>
+
+    <h2>Winter 2024-2025 Courses</h2>
+    <ul class="theory">
+        <li>Data Structures and Algorithms (Theory)</li>
+        <li>Operating Systems (Theory)</li>
+    </ul>
+    <ul class="lab">
+        <li>Web Programming (Lab)</li>
+        <li>Artificial Intelligence (Lab)</li>
+    </ul>
+
+    <h2>Programming Languages and Ratings</h2>
+    <ol>
+        <li><img src="C:\Users\yashd\OneDrive\Pictures\Screenshots\Screenshot 2025-01-20 230926.png" alt="Java Logo" width="50">Java - 9/10</li>
+        <li><img src="C:\Users\yashd\OneDrive\Pictures\Screenshots\Screenshot 2025-01-20 230949.png" alt="C++ Logo" width="50">C++ - 8/10</li>
+        <li><img src="C:\Users\yashd\OneDrive\Pictures\Screenshots\Screenshot 2025-01-20 231035.png" alt="Python Logo" width="50">Python - 8.5/10</li>
+        <li><img src="C:\Users\yashd\OneDrive\Pictures\Screenshots\Screenshot 2025-01-20 231108.png" alt="HTML Logo" width="50">HTML & CSS - 7.5/10</li>
+    </ol>
+
+    <h2>Favorite Books/Movies/Concerts</h2>
+    <ul class="reviews">
+        <li><strong>Movie:</strong> Inception - A mind-bending thriller that explores dreams within dreams.</li>
+        <li><strong>Book:</strong> Atomic Habits - A transformative guide to building good habits.</li>
+        <li><strong>Concert:</strong> Coldplay Live - An unforgettable musical experience filled with energy and emotions.</li>
+    </ul>
+</body>
+</html>

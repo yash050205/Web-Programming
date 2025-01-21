@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Index Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 1rem;
+        }
+        article {
+            margin: 1rem 0;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        aside {
+            background: #f4f4f4;
+            padding: 1rem;
+            margin: 1rem 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+        }
+        .contact-form input, .contact-form textarea, .contact-form button {
+            display: block;
+            width: 100%;
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+        }
+        .contact-form button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Welcome to My Website</h1>
+    <p>Explore the world of creativity and knowledge.</p>
+</header>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#activities">Activities</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+<section id="home">
+    <article>
+        <h2>Home Page</h2>
+        <p>This is a short description about the theme of my website. Here you can find interesting topics, activities, and insights that inspire and engage.</p>
+    </article>
+</section>
+<section id="activities">
+    <article>
+        <h2>Activities</h2>
+        <p>Explore the activities listed in assignments 1A, 1B, and 1C:</p>
+        <ul>
+            <li><a href="https://yash050205.github.io/Web-Programming/">Activity 1A</a></li>
+            <li><a href="https://www.youtube.com/embed/TMTVWV-CSr4">Activity 1B</a></li>
+            <li><a href="https://yash050205.github.io/form/">Activity 1C</a></li>
+        </ul>
+    </article>
+</section>
+<section id="blog">
+    <article>
+        <h2>Blog Page</h2>
+        <p>Check out some photos, videos, and interesting links below:</p>
+        <p>Watch this informative video:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TMTVWV-CSr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Visit <a href="https://www.youtube.com/@yashdharad1998">this website</a> for more information.</p>
+    </article>
+</section>
+<aside>
+    <h3>Did You Know?</h3>
+    <p>Web development is a constantly evolving field, with new trends emerging every year.</p>
+</aside>
+<footer id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-form">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email">
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message"></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table Layout</title>
+    <style>
+        /* Container for the table */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Table styles */
+        table {
+            width: 100%;
+            height: auto;
+            border-collapse: collapse;
+            border: 2px solid #333;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        td {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #333;
+        }
+
+        /* Adding space between border and content */
+        td {
+            padding: 15px;
+        }
+
+        /* Row hover effect */
+        tr:hover {
+            background-color: #d3d3d3;
+        }
+
+        /* Custom styles for specific content */
+        td img {
+            width: 100px;
+            height: 100px;
+        }
+
+        td a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+
+        td a:hover {
+            color: darkred;
+        }
+
+        /* Highlight specific rows or columns */
+        .highlight {
+            background-color: #f5a623;
+            font-weight: bold;
+        }
+
+        .motivational {
+            font-family: Arial, sans-serif;
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <caption>Complex Table Layout</caption>
+            <tr>
+                <td rowspan="2" colspan="2">
+                    <img src="C:\Users\yashd\OneDrive\Pictures\Screenshots\Screenshot 2025-01-20 212419.png" alt="Example Image">
+                </td>
+                <td class="highlight">r1c3</td>
+                <td rowspan="2" class="motivational">Stay Positive!</td>
+                <td rowspan="2" colspan="2">r1c5</td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <a href="yashdharad5@gmail.com">Email Me</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <a href="home.html">Go to Home</a>
+                </td>
+                <td colspan="2">
+                    <a href="https://th.bing.com/th/id/R.071f43408bca9673f370e05c9dc838d2?rik=NrusFm%2flV2xtlw&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1597848212624-a19eb35e2651%3fixlib%3drb-1.2.1%26q%3d80%26fm%3djpg%26crop%3dentropy%26cs%3dtinysrgb%26w%3d1080%26fit%3dmax&ehk=4go6t8l6CowBI8qequqsHCc%2f5ScfWteTa7jCCoY8Bqg%3d&risl=&pid=ImgRaw&r=0">
+                        <img src="example-link.jpg" alt="Link Image">
+                    </a>
+                </td>
+                <td>r3c6</td>
+            </tr>
+            <tr>
+                <td>r4c1</td>
+                <td colspan="2" class="highlight">r4c2</td>
+                <td rowspan="2">r4c4</td>
+                <td colspan="2">r4c5</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2" class="highlight">r5c1</td>
+                <td rowspan="2" class="motivational">You Can Do It!</td>
+                <td colspan="2" rowspan="2" class="motivational">Keep Going!</td>
+            </tr>
+            <tr>
+                <td class="motivational">Believe in Yourself!</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

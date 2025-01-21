@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Form</title>
+</head>
+<body style="text-align: center;">
+    <div class="form-container">
+        <h2>HTML5 Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <br>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male" style="display: inline;">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female" style="display: inline;">Female</label>
+            <br>
+            <br>
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" id="sports" name="hobbies" value="sports">
+            <label for="sports" style="display: inline;">Sports</label>
+            <input type="checkbox" id="music" name="hobbies" value="music">
+            <label for="music" style="display: inline;">Music</label>
+            <br>
+            <br>
+            <label for="country">Country:</label>
+            <select id="country" name="country" size="3">
+                <option value="usa">USA</option>
+                <option value="india">India</option>
+                <option value="uk">UK</option>
+            </select>
+            <br>
+            <br>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+            <br>
+            <br>
+            <label for="datalist">Choose a Color:</label>
+            <input list="colors" id="datalist" name="datalist">
+            <datalist id="colors">
+                <option value="Red">
+                <option value="Blue">
+                <option value="Green">
+            </datalist>
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
